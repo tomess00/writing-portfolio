@@ -1,0 +1,377 @@
+*,
+::before,
+::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   background-color: rgb(227, 232, 241);
+   color: var(--text);
+}
+
+header {
+   height: 100vh;
+}
+
+:root {
+   --text: #0f172a;
+   --white: #fffefe;
+}
+
+a {
+   text-decoration: none;
+   color: var(--text);
+   text-transform: capitalize;
+}
+
+li {
+   list-style: none;
+}
+
+section h2 {
+   font-size: 35px;
+   text-transform: uppercase;
+   color: crimson;
+   text-align: center;
+   margin-bottom: 5px;
+}
+
+#navbar {
+   padding: 20px 0;
+   background-color: var(--white);
+   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* navbar */
+.links {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.link {
+   padding: 5px 30px;
+   color: var(--text);
+   text-transform: uppercase;
+   font-size: 15px;
+   transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+   color: crimson;
+}
+
+/* hero */
+.hero {
+   height: 93vh;
+   background-color: #ecedef;
+   /* display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center; */
+   color: var(--text);
+   padding: 150px;
+   background-image: url(./images/bg-image.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.greeting {
+   font-size: 30px;
+   font-weight: 500;
+   color: var(--text);
+}
+
+.hero h1 {
+   font-size: 50px;
+   margin: 20px 0;
+   color: crimson;
+}
+
+.hero .job {
+   font-size: 30px;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+.text-anime {
+   color: crimson;
+}
+
+/* socials */
+.socials {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin: 30px 0;
+}
+
+.icon {
+   width: 35px;
+   height: 35px;
+   padding: 7px;
+   background-color: #0f172a;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+
+.icon img {
+   width: 100%;
+   height: 100%;
+}
+
+/* discover button */
+.btn {
+   padding: 5px 30px;
+   border: 1px solid var(--text);
+   background-color: transparent;
+}
+
+/* about */
+#about {
+   padding: 50px 100px 50px 100px;
+}
+
+.about-container {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   width: 100%;
+   margin-bottom: 30px;
+}
+
+.image-container {
+   width: 34%;
+   border-radius: 10px;
+}
+
+.image-container img {
+   width: 100%;
+}
+
+.presentation {
+   width: 63%;
+}
+
+.presentation span {
+   color: crimson;
+}
+
+.presentation p::first-letter {
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.language {
+   width: 50%;
+}
+
+.language p {
+   margin-bottom: 5px;
+}
+
+.language h3 {
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.full-line {
+   height: 5px;
+   background-color: var(--text);
+   margin-bottom: 10px;
+}
+
+.scoped-line-1 {
+   height: 5px;
+   background-color: crimson;
+   width: 85%;
+}
+
+.scoped-line-2 {
+   height: 5px;
+   background-color: crimson;
+   width: 60%;
+}
+
+.scoped-line-3 {
+   height: 5px;
+   background-color: crimson;
+   width: 95%;
+}
+
+/* projects */
+#projects {
+   padding: 0 100px 50px 100px;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   gap: 30px;
+}
+
+.article {
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: space-between;
+   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+   /* border: 1px solid black; */
+}
+
+.article-image {
+   height: 280px;
+}
+
+.article-title {
+   padding: 10px 5px;
+   background-color: var(--white);
+   border-radius: 0 0 5px 5px;
+   border-bottom: 3px solid gray;
+}
+
+.article-title h3 {
+   font-size: 15px;
+   font-weight: 600;
+   line-height: 25px;
+   text-align: center;
+}
+
+.article img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 5px 5px 0 0;
+}
+
+.line {
+   width: 100%;
+   height: 2px;
+   background-color: gray;
+   margin-bottom: 50px;
+}
+
+/* contact */
+
+#contact {
+   padding: 50px 100px;
+}
+
+.form-title {
+   font-size: 30px;
+   margin-bottom: 25px;
+}
+
+.contact-form {
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+#form {
+   width: 60%;
+}
+
+.input {
+   width: 90%;
+   margin-bottom: 30px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.input input {
+   width: 48%;
+   padding: 10px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   border-radius: 5px;
+   background-color: var(--white);
+   color: var(--text);
+   border: 1px solid gray;
+   outline: none;
+}
+
+textarea {
+   width: 90%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   border-radius: 5px;
+   padding: 10px;
+   background-color: var(--white);
+   color: var(--text);
+   border: 1px solid gray;
+   outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   color: var(--text);
+}
+
+.submit-btn {
+   padding: 10px 40px;
+   color: var(--text);
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+   margin-top: 25px;
+   border-radius: 5px;
+   border: 1px solid gray;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+   color: var(--white);
+   background-color: crimson;
+   border: 1px solid crimson;
+}
+
+.info {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: 20px;
+}
+
+.contact-icons {
+   width: 30px;
+   height: 30px;
+   border: 1px solid crimson;
+   border-radius: 50%;
+   background-color: var(--white);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 15px;
+}
+
+/* Reviews */
+#reviews {
+   padding: 0 100px 50px 100px;
+}
+
+/* footer */
+
+footer {
+   padding: 20px 0;
+   color: var(--white);
+   background-color: var(--text);
+   border-top: 2px solid crimson;
+}
+
+.copyright {
+   text-align: center;
+}

@@ -1,0 +1,219 @@
+/* ==============
+article page
+===================*/
+
+*,
+::before,
+::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   background-color: rgb(227, 232, 241);
+}
+
+:root {
+   --text: #0f172a;
+   --white: rgb(255, 254, 254);
+}
+
+h1,
+h2,
+p,
+article img {
+   margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+li,
+.agence-seo-aside span {
+   color: crimson;
+}
+
+article img {
+   height: 300px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.banner-img {
+   width: 100%;
+   border-radius: 10px 10px 0 0;
+   height: initial;
+}
+
+.broderie-aside .two-img {
+   display: flex;
+   overflow: hidden;
+   justify-content: space-between;
+}
+
+.two-img img {
+   width: 49%;
+}
+
+ul li {
+   list-style: disc;
+   margin-left: 40px;
+   font-weight: 600;
+}
+
+/* header */
+
+.links {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 30px 0;
+   background-color: var(--white);
+   margin-bottom: 50px;
+}
+
+.links li {
+   list-style: none;
+}
+
+.link {
+   padding: 5px 30px;
+   transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+   color: crimson;
+}
+
+.home {
+   background-color: crimson;
+   color: var(--white);
+   border-radius: 5px;
+}
+
+.home:hover {
+   color: var(--text);
+}
+
+/* main */
+main {
+   padding: 0 100px 50px 100px;
+}
+
+a {
+   text-decoration: none;
+   color: var(--text);
+   text-transform: capitalize;
+}
+
+li {
+   list-style: none;
+}
+
+img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.aside {
+   width: 70%;
+   background-color: var(--white);
+   border-radius: 20px;
+   color: var(--text);
+}
+
+article {
+   padding: 50px;
+}
+
+article p {
+   line-height: 25px;
+   font-size: 17px;
+}
+
+article h1 {
+   font-size: 30px;
+}
+
+article h2 {
+   font-size: 20px;
+}
+
+.top-btn {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: crimson;
+   position: fixed;
+   bottom: 50px;
+   right: 25%;
+   cursor: pointer;
+   margin: 0;
+}
+
+/* footer */
+
+footer {
+   padding: 20px 0;
+   color: var(--white);
+   background-color: var(--text);
+   border-top: 2px solid crimson;
+}
+
+.copyright {
+   text-align: center;
+}
+
+/* ==============
+AGENCE SEO 
+================= */
+
+/* LIST */
+.agence-seo-aside ul li {
+   font-weight: 400;
+}
+
+ul.color-sans {
+   margin-bottom: 20px;
+}
+
+ul.color-sans li {
+   color: initial;
+   margin-bottom: 10px;
+   font-weight: 500;
+}
+
+ul.sans li {
+   list-style: none;
+}
+
+ul.number li {
+   list-style: decimal;
+}
+
+ul.arrow li {
+   list-style-image: url('../images/arrow-right.svg');
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 5px;
+}
+
+ul.arrow li h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: green;
+   font-style: italic;
+}
+
+/* NUMERO DE L'AGENCE (SPAN) */
