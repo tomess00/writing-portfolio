@@ -14,7 +14,8 @@ body {
    font-family: 'Montserrat', sans-serif;
    font-size: 18px;
    font-weight: 400;
-   background-color: rgb(227, 232, 241);
+   background-color: #e4e9ed;
+   /* background-color: rgb(227, 232, 241); */
    color: var(--text);
 }
 
