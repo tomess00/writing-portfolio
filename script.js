@@ -33,9 +33,9 @@ const articles = [
 
    {
       id: 4,
-      title: '',
-      img: 'images/article/',
-      link: ``
+      title: `Comment travailler le SEO de son site en 2021`,
+      img: 'images/article/site-seo/0.jpg',
+      link: `article/site-seo.html`
    },
 
    {

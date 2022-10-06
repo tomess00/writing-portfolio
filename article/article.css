@@ -216,4 +216,38 @@ ul.arrow li h3 {
    font-style: italic;
 }
 
-/* NUMERO DE L'AGENCE (SPAN) */
+/* ==============
+OPTIMISATION DE SITE 
+================= */
+
+/* LIST */
+.site-seo ul li {
+   font-weight: 400;
+}
+
+ul.color-sans {
+   margin-bottom: 20px;
+}
+
+ul.color-sans li {
+   color: initial;
+   margin-bottom: 10px;
+   font-weight: 500;
+}
+
+ul.number li {
+   list-style: decimal;
+}
+
+ul.arrow li {
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 5px;
+}
+
+ul.arrow li h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: green;
+   font-style: italic;
+}
