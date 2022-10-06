@@ -26,9 +26,9 @@ const articles = [
 
    {
       id: 3,
-      title: '',
-      img: 'images/article/',
-      link: ``
+      title: `Étudiant et auto-entrepreneur, puis-je cumuler les deux ?`,
+      img: '../images/article/etudiant/0.jpg',
+      link: `article/etudiant.html`
    },
 
    {
