@@ -13,7 +13,7 @@ const articles = [
    {
       id: 1,
       title: `La broderie diamant c'est quoi ? Notre explication`,
-      img: '../images/article/broderie/0.jpg',
+      img: 'images/article/broderie/0.jpg',
       link: `article/broderie.html`
    },
 
@@ -27,7 +27,7 @@ const articles = [
    {
       id: 3,
       title: `Étudiant et auto-entrepreneur, puis-je cumuler les deux ?`,
-      img: '../images/article/etudiant/0.jpg',
+      img: 'images/article/etudiant/0.jpg',
       link: `article/etudiant.html`
    },
 
