@@ -212,6 +212,10 @@ section h2 {
    width: 95%;
 }
 
+.upwork-link {
+   color: #6eda45;
+}
+
 /* projects */
 #projects {
    padding: 0 100px 50px 100px;
